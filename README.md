@@ -31,7 +31,7 @@ Create a java program that would take user inputs and calculate total cost for a
 
 ##link##
 #### https://github.com/hoangnh092185/java-Event.git
-#### https://github.com/hoangnh092185/
+#### https://github.com/hoangnh092185/java-Event/tree/gh-pages
 ### License
 
 *GPL*
