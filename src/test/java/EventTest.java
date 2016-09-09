@@ -14,7 +14,7 @@ public class EventTest {
     assertEquals(7, testEvent.getPeople());
   }
   @Test
-  public void eventInput_getsChickenWings_15() {
+  public void eventInput_getsWings_15() {
     Event testEvent = new Event(7, 15, 4, 9, "Yes");
     assertEquals(15, testEvent.getWings());
   }
@@ -34,9 +34,13 @@ public class EventTest {
     assertEquals("Yes", testEvent.getDecorations());
   }
   @Test
-  public void eventCalculator_instantiatesCorrectly(){
+  public void eventCalculator_getsCostDecoration_5(){
     Event testEvent = new Event(7, 15, 4, 9, "Yes");
-    assertEquals(false, testEvent.eventCalculator());
+    assertEquals(5, testEvent.eventCalculator());
   }
-
+  @Test
+  public void eventCalculator_getsCostOfEvent_40(){
+    Event testEvent = new Event(7, 15, 4, 9, "Yes");
+    assertEquals(40, testEvent.eventCalculator());
+  }
 }

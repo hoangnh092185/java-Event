@@ -4,6 +4,7 @@ public class Event {
   private int mChips;
   private int mBeers;
   private String mDecorations;
+  private int mCosts;
 
   public Event(int peoples, int wings, int chips, int beers, String decorations){
     mPeoples = peoples;
@@ -11,6 +12,7 @@ public class Event {
     mChips = chips;
     mBeers = beers;
     mDecorations = decorations;
+
   }
   public int getPeople(){
     return mPeoples;
@@ -27,7 +29,11 @@ public class Event {
   public String getDecorations(){
     return mDecorations;
   }
-  public boolean eventCalculator(){
-    return true;
+  public int eventCalculator(){
+    mCosts = (mWings * 3) + mChips + (mBeers * mPeoples / 10);
+    if (mDecorations.equals("Yes")){
+      mCosts += 5;
+    }
+    return mCosts;
   }
 }
