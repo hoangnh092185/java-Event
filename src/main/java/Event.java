@@ -1,37 +1,36 @@
 public class Event {
   private int mPeoples;
-  private int mWings;
-  private int mChips;
-  private int mBeers;
+  private int mCatering;
+  private int mEntertainment;
+  private int mAlcohol;
   private String mDecorations;
   private int mCosts;
 
-  public Event(int peoples, int wings, int chips, int beers, String decorations){
+  public Event(int peoples, int catering, int entertainment, int alcohol, String decorations){
     mPeoples = peoples;
-    mWings = wings;
-    mChips = chips;
-    mBeers = beers;
+    mCatering = catering;
+    mEntertainment = entertainment;
+    mAlcohol = alcohol;
     mDecorations = decorations;
-
   }
-  public int getPeople(){
+  public int getPeoples(){
     return mPeoples;
   }
-  public int getWings(){
-    return mWings;
+  public int getCatering(){
+    return mCatering;
   }
-  public int getChips(){
-    return mChips;
+  public int getEntertainment(){
+    return mEntertainment;
   }
-  public int getBeers(){
-    return mBeers;
+  public int getAlcohol(){
+    return mAlcohol;
   }
   public String getDecorations(){
     return mDecorations;
   }
   public int eventCalculator(){
-    mCosts = (mWings * 3) + mChips + (mBeers * mPeoples / 10);
-    if (mDecorations.equals("Yes")){
+    mCosts = mPeoples + (mCatering * 20) + (mEntertainment * 100) + (mAlcohol * 10);
+    if (mDecorations.equalsIgnoreCase("Yes")){
       mCosts += 5;
     }
     return mCosts;
