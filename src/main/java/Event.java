@@ -33,6 +33,9 @@ public class Event {
     if (mDecorations.equalsIgnoreCase("Yes")){
       mCosts += 5;
     }
+    if (mPeoples >= 50) {
+      mCosts += 100;
+    }
     return mCosts;
   }
 }

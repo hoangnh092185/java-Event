@@ -9,11 +9,11 @@ Create a java program that would take user inputs and calculate total cost for a
 
 ## Specification
 
-* User can choose toppings and size of the pizza.
-* Create a object constructor from the selected toppings and pizza sizes.
-* creates a prototype methods for the cost of the pizza that are dependent on user selections.
-* Display the selected choices to the front end.
-* Display the calculated pizza cost to the front end.
+* In the event class, the gradle.test recognized the declare variable: int, int, int, int, string.
+* Gradle recognized each variable value for #Peoples, Catering, Entertainment, Alcohol, decorations.
+* Gradle recognized the calculation methods.
+* Calculating methods take all the variable and do calculation.
+* Create front end for user inputs and display calculated total cost of an event.
 
 ## Setup/Installation Requirements
 
@@ -26,10 +26,11 @@ Create a java program that would take user inputs and calculate total cost for a
 * Java
 * Gradle
 * Junit
+* Terminal
 
 
 ##link##
-#### https://github.com/hoangnh092185/
+#### https://github.com/hoangnh092185/java-Event.git
 #### https://github.com/hoangnh092185/
 ### License
 

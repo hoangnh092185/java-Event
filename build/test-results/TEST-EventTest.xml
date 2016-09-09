@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="EventTest" tests="8" skipped="0" failures="2" errors="0" timestamp="2016-09-09T16:54:30" hostname="epicodus-33.local" time="0.003">
+<testsuite name="EventTest" tests="8" skipped="0" failures="2" errors="0" timestamp="2016-09-09T19:22:55" hostname="epicodus-33.local" time="0.004">
   <properties/>
-  <testcase name="eventInput_getsPeople_7" classname="EventTest" time="0.0"/>
+  <testcase name="eventInput_getsPeople_7" classname="EventTest" time="0.001"/>
   <testcase name="eventInput_getsBeers_5" classname="EventTest" time="0.0"/>
-  <testcase name="eventInput_getsChickenWings_15" classname="EventTest" time="0.0"/>
   <testcase name="eventInput_instantiatesCorrectly" classname="EventTest" time="0.0"/>
   <testcase name="eventInput_getsChips_4" classname="EventTest" time="0.0"/>
+  <testcase name="eventInput_getsWings_15" classname="EventTest" time="0.0"/>
   <testcase name="eventCalculator_getsCostDecoration_5" classname="EventTest" time="0.001">
-    <failure message="java.lang.AssertionError: expected:&lt;5&gt; but was:&lt;60&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;5&gt; but was:&lt;60&gt;
+    <failure message="java.lang.AssertionError: expected:&lt;5&gt; but was:&lt;802&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;5&gt; but was:&lt;802&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:645)
@@ -58,8 +58,8 @@
 	at java.lang.Thread.run(Thread.java:745)
 </failure>
   </testcase>
-  <testcase name="eventCalculator_getsCostOfEvent_40" classname="EventTest" time="0.0">
-    <failure message="java.lang.AssertionError: expected:&lt;40&gt; but was:&lt;60&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;40&gt; but was:&lt;60&gt;
+  <testcase name="eventCalculator_getsCostOfEvent_40" classname="EventTest" time="0.001">
+    <failure message="java.lang.AssertionError: expected:&lt;40&gt; but was:&lt;775&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;40&gt; but was:&lt;775&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:645)
@@ -110,7 +110,7 @@
 	at java.lang.Thread.run(Thread.java:745)
 </failure>
   </testcase>
-  <testcase name="eventInput_getsDecorations_Yes" classname="EventTest" time="0.001"/>
+  <testcase name="eventInput_getsDecorations_Yes" classname="EventTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
